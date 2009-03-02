@@ -11,6 +11,7 @@ Source0:	http://svn.pld-linux.org/svn/toys/fun/rsget.pl
 # Source0-md5:	a6bf82e9c225cceda61b071c573ff785
 URL:		http://svn.pld-linux.org/svn/toys/fun/
 BuildRequires:	rpm-perlprov
+Requires:	gocr
 Requires:	netpbm-progs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
