@@ -14,6 +14,7 @@ BuildRequires:	rpm-perlprov
 Requires:	gocr
 Requires:	netpbm-progs
 Requires:	perl-Term-Size
+Requires:	perl-URI
 Requires:	perl-WWW-Curl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
